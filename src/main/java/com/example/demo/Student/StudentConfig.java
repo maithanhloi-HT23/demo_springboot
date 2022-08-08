@@ -19,14 +19,12 @@ public class StudentConfig {
             Student mai_thanh_loi = new Student(
                     "Mai Thanh Loi",
                     "maithanhloi.hvACT@gmail.com",
-                    LocalDate.of(2001, DECEMBER, 7),
-                    21
+                    LocalDate.of(2001, DECEMBER, 7)
             );
             Student mai_thanh_thang = new Student(
                     "Mai Thanh Thang",
                     "maithangthien.hvACT@gmail.com",
-                    LocalDate.of(2001, DECEMBER, 7),
-                    21
+                    LocalDate.of(1998, FEBRUARY, 2)
             );
 
             repostiory.saveAll(
